@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+background-image: url(image/IMG_5247.JPG);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: sans-serif;
+display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+	
+}
+
+.Register-Now{
+width:330px;
+height: 440px;
+padding: 50px;
+border: 5px solid #34495e;
+border-radius: 10px;
+outline: none;
+background: rgba(52, 73, 94, 1);
+
+}
+
+form h2{
+color: #ecf0f1;
+}
+.input-style{
+	margin-top: 15px;
+
+}
+.input-style input{
+	width: 90%;
+	background:transparent;
+	padding: 3px;
+	border: 2px solid #16a085;
+	border-radius: 5px;
+	color: #ecf0f1;
+	outline:none;	
+}
+.input-style label{
+color: #ecf0f1;
+display: block;
+margin-bottom: 4px;
+margin-top: 1px;
+font-size: 15px;
+cursor: pointer;
+padding: 1px;
+}
+.gender p{
+	color: #ecf0f1;
+	margin-top: 4px;
+	cursor: pointer;
+
+}
+.Option{
+	margin-top: 6px;
+
+}
+.Option label{
+	color: #ecf0f1;
+	cursor: pointer;
+}
+
+.register-page input{
+	margin-top: 20px;
+	
+	width: 90%;
+	padding: 10px;
+	background: linear-gradient(130deg,#1abc9c,#16a085);
+	outline: none;
+	border-radius: 5px;
+	color: #ecf0f1;
+	cursor: pointer;
+	border: none;
+	font-size: 15px;
+
+}
+
+.register-page input:hover{
+	background: linear-gradient(-130deg,#1abc9c,#16a085);
+}
